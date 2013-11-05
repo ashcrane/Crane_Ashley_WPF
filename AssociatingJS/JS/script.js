@@ -1,1 +1,1 @@
-aler(test)
+alert ("test");
