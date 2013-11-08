@@ -10,7 +10,7 @@ var omdt = prompt("Please enter your Overview of Media Design and Technology.");
 
 var result = (Number(digLit) + Number(pyp) + Number(omdt))/3; // The grades are now added together and then divided by the number 3.
 
-
+math.round(result)
 
 console.log(result);
 alert("The overall average of the classes you have taken is " +  result)
