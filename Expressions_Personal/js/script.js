@@ -12,6 +12,6 @@ var average = (Number(digLit) + Number(pyp) + Number(omdt))/3; // The grades are
 
 result = average.toFixed(1); // Added a new variable that rounds the average to one decimal.
 
-console.log(result); // allows you to see the result in the console.
+console.log(" The overall grade average of the classes you have taken is " + result); // allows you to see the result in the console.
 
-alert("The overall average of the classes you have taken is " +  result);
+alert("The overall grade average of the classes you have taken is " +  result);
