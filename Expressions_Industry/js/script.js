@@ -16,4 +16,4 @@ var costPerPage = cartridgeCost/estimatedYield;  // The product will equal the c
 
  costPerPage *= numberOfCopies;  // The cost per page is multiplied by the number of copies printed for the month.
 
-console.log("The montly cost to print 1,600 pages a month is " + costPerPage);  // The result of Cost per page multiplied by 1600 printed in the console.
+console.log("The cost to print 1,600 pages a month is " + costPerPage + ".");  // The result of Cost per page multiplied by 1600 printed in the console.
