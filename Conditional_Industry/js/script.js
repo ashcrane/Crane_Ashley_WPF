@@ -6,9 +6,13 @@
 
 var scanGlass = false;  // a variable for if you scanned your paper to be copied using the glass scanner on top of the copier.
 
-var clean;
+var whatToDo;
+
+// This is a ternary to see if the scanGlass variable is true or false. The statement that will be printed to console if true is on the right and the statement that will be printed if it is false is on the left of the colon.
 
 
-clean = (scanGlass === true) ? "Clean the slit glass, it probably has something stuck to the glass. " : "Contact a repair technician, it may be something other than the slit glass.";
+whatToDo = (scanGlass === true) ? "Clean the slit glass, it probably has something stuck to the glass. " : "Contact a repair technician, it may be something other than the slit glass.";
 
-console.log(clean);
+
+
+console.log(whatToDo); // This will print to the console the true or false statement for clean.
